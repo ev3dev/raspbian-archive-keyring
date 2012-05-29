@@ -1,0 +1,15 @@
+README for the raspbian-archive-keyring package
+===================================================
+
+The raspbian archive digitally signs its Release files that are
+stored on the raspbian.org ftp-sever and its mirrors with the 
+keys contained in this package.
+
+Upon installation of this package, the raspbian related keys are
+updated using the apt-key command, that is the keys contained in
+raspbian-archive-keyring are automatically installed into apt's 
+trusted keyring by the package, while the one contained in
+raspbian-archive-keyring-removed are automatically removed.
+
+More information about the archive authentication feature can be found
+here: http://wiki.debian.org/SecureApt

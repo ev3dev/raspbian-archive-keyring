@@ -1,0 +1,19 @@
+raspbian-archive-keyring (20120528.2) wheezy; urgency=low
+
+  * Add Provides: debian-archive-keyring
+  * Remove dependency on apt to avoid loop
+
+ -- Peter Michael Green <plugwash@p10link.net>  Tue, 29 May 2012 21:28:55 +0000
+
+raspbian-archive-keyring (20120528.1) wheezy; urgency=low
+
+  * Fix some packaging screwups
+
+ -- Peter Michael Green <plugwash@p10link.net>  Mon, 28 May 2012 22:56:55 +0000
+
+raspbian-archive-keyring (20120528) wheezy; urgency=low
+
+  * New keyring package for raspbian based on the debian-ports-archive-keyring
+    package
+
+ -- Peter Micheal Green <plugwash@p10link.net>  Mon, 28 May 2012 22:16:12 +0000

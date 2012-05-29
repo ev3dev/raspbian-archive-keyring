@@ -1,0 +1,24 @@
+Source: raspbian-archive-keyring
+Section: misc
+Priority: important
+Maintainer: Peter Michael Green <plugwash@p10link.net>
+Build-Depends: debhelper (>> 7)
+Standards-Version: 3.9.2
+
+Package: raspbian-archive-keyring
+Architecture: all
+Depends: gnupg, ${misc:Depends}
+Provides: debian-archive-keyring
+Description: GnuPG archive keys of the raspbian archive
+ The raspbian archive digitally signs its Release files. This package
+ contains the archive keys used for that.
+
+Package: raspbian-archive-keyring-udeb
+XC-Package-Type: udeb
+Section: debian-installer
+Architecture: all
+Recommends: gpgv-udeb
+Description: GnuPG keys of the raspbian archive
+ The raspbian archive digitally signs its Release files. This package
+ contains the archive keys used for that, in a minimal form for use
+ in the installer.
