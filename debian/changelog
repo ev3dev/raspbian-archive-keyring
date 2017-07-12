@@ -1,3 +1,9 @@
+raspbian-archive-keyring (20120528.2ev3dev1) trusty; urgency=medium
+
+  * ev3dev-trusty
+
+ -- David Lechner <david@lechnology.com>  Wed, 12 Jul 2017 12:54:32 -0500
+
 raspbian-archive-keyring (20120528.2) wheezy; urgency=low
 
   * Add Provides: debian-archive-keyring
