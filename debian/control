@@ -1,7 +1,8 @@
 Source: raspbian-archive-keyring
 Section: misc
 Priority: important
-Maintainer: Peter Michael Green <plugwash@p10link.net>
+Maintainer: David Lechner <david@lechnology.com>
+XSCB-Original-Maintainer: Peter Michael Green <plugwash@p10link.net>
 Build-Depends: debhelper (>> 7)
 Standards-Version: 3.9.2
 
